@@ -1,0 +1,13 @@
+code: postgresmarch26-bundle
+description: This is the postgresmarch26 bundle
+
+components:
+  plugins:
+    - plugins/postgresmarch26-plugin.yaml
+
+  widgets:
+    - ui/widgets/cities/tableWidget/cities-table-widget-descriptor.yaml
+    - ui/widgets/cities/detailsWidget/cities-details-widget-descriptor.yaml
+    - ui/widgets/cities/formWidget/cities-form-widget-descriptor.yaml
+# entando-needle-descriptor-add-widgets - Entando blueprint will add widget bundle files here
+
